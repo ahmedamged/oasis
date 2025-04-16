@@ -112,3 +112,31 @@ body {
     font-size: 60px;
     margin: 0 15px 0 0;
 }
+
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 160px;
+    padding: 50px 0;
+}
+
+.main-section > img {
+    width: 600px;
+    margin: 140px 0;
+}
+.main-section > div {
+    max-width: 750px;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.main-section > div > h4 {
+    color: #03affb;
+    margin-bottom: 0;
+}
+
+.main-section > div > p {
+    line-height: 1.4;
+    text-align: justify;
+    margin-top: 13px;
+}
