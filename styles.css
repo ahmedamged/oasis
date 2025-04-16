@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 900px;
+    height: 800px;
     background: #108db9;
 }
 
@@ -81,4 +81,34 @@ body {
     bottom: 12px; 
     background-color: #100000; 
     z-index: -1;
-} 
+}
+
+.hero-footer {
+    background-color: #444444;
+    margin: -100px 160px 0;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.hero-footer > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-footer-section {
+    display: flex;
+}
+
+.hero-footer-text {
+    margin-top: 0;
+}
+
+.hero-footer-number {
+    font-size: 60px;
+    margin: 0 15px 0 0;
+}
