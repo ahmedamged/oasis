@@ -314,3 +314,30 @@ body {
     padding: 11px 0;
     cursor: pointer;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0082b3;
+    color: #fff;
+    font-family: sans-serif;
+    height: 500px;
+}
+
+.footer h4 {
+    font-size: 20px;
+}
+
+.footer > div {
+    min-width: 400px;
+}
+
+.footer > div > div {
+    display: flex;
+    align-items: center;
+}
+
+.footer > div > div > img {
+    cursor: pointer;
+}
