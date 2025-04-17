@@ -244,3 +244,73 @@ body {
     border-left: 1px solid #e0e0e0;
     border-top: 1px solid #e0e0e0;
 }
+
+.blank {
+    height: 250px;
+    background-color: #13bfff;
+    margin-top: 3px;
+}
+
+.contact-section {
+    height: 680px;
+    background: url(images/world-map.png);
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.contact-section > h4 {
+    font-size: 110px;
+    color: #028ade;
+    text-transform: uppercase;
+}
+
+.contact-form {
+    background-color: #444444;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 50px 40px;
+    border: 22px solid #d5d1ce;
+    margin-top: -164px;
+}
+
+.contact-form input {
+    background-color: #444444;
+    border: none;
+    border-bottom: 2px solid #898989;
+    margin-bottom: 45px;
+    min-width: 236px;
+    color: #fff;
+}
+
+.contact-form > textarea {
+    background-color: #444444;
+    margin-bottom: 45px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.contact-form > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#send {
+    color: #fff;
+    border: 1px solid #a4a4a4;
+    border-radius: 20px;
+    min-width: 0;
+    max-width: 147px;
+    padding: 11px 0;
+    cursor: pointer;
+}
