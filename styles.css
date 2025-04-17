@@ -30,7 +30,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 800px;
-    background: #108db9;
+    background-color: #108db9;
+    background: url(images/workperch-unsplash.png);
+    background-size: cover;
 }
 
 .hero-main {
@@ -70,10 +72,10 @@ body {
 .provide-word::before { 
     content: ""; 
     position: absolute; 
-    top: 28px; 
+    top: 23px; 
     left: -88px; 
     right: 0; 
-    bottom: 12px; 
+    bottom: 21px; 
     background-color: #100000;
     z-index: -1; 
 } 
@@ -87,10 +89,10 @@ body {
 .solutions-word::before { 
     content: ""; 
     position: absolute; 
-    top: 28px; 
+    top: 23px; 
     left: 0; 
     right: -34px; 
-    bottom: 12px; 
+    bottom: 21px; 
     background-color: #100000; 
     z-index: -1;
 }
