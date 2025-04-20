@@ -1,5 +1,6 @@
 .hero {
     background-image: url(images/nordwood-unsplash.png);
+    background-position: right;
 }
 
 .contact-section {
