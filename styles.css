@@ -357,10 +357,11 @@ body {
     align-items: center;
 }
 
-.footer > div > div > i {
-    font-size: 36px;
+.footer > div > div > a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
     margin-right: 20px;
-    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
