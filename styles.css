@@ -362,3 +362,130 @@ body {
     margin-right: 20px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        max-height: fit-content;
+    }
+
+    .navbar img{
+        width: 218px;
+    }
+
+    .solutions-word::before {
+        right: unset;
+    }
+
+    .hero {
+        height: fit-content;
+    }
+
+    .hero-main {
+        padding: 130px 0;
+    }
+
+    .hero-main > h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .hero-main > h2 {
+        font-size: 40px;
+    }
+
+    .hero-main > h1 > span {
+        font-size: 50px;
+    }
+
+    .hero-footer {
+        display: block;
+        height: fit-content;
+        padding: 85px 0;
+        margin: 0;
+    }
+
+    .main-section {
+        display: block;
+        margin: 0 32px;
+    }
+
+    .main-section > img {
+        width: -webkit-fill-available;
+        margin: 0;
+    }
+
+    .values-section {
+        margin: 0px 34px 34px;
+    }
+
+    .values-section > div {
+        display: block;
+    }
+
+    .values-section > div > div { 
+        width: fit-content;
+        flex-direction: column;
+    }
+
+    .values-section > div > div > img {
+        margin-right: 0;
+    }
+
+    .first-integrity {
+        border-right: none;
+    }
+
+    .second-integrity {
+        border-left: none;
+    }
+
+    .first-creativity {
+        border-top: none;
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .second-creativity {
+        border-top: none;
+        border-left: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .vision-mission-section {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 13px;
+        height: fit-content;
+    }
+
+    .vision-mission-section > img {
+        max-width: -webkit-fill-available;
+        margin-bottom: 126px;
+    }
+
+    .contact-section {
+        margin: 0;
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+
+    .contact-section > h4 {
+        font-size: 33px;
+    }
+
+    .contact-form {
+        margin-top: unset;
+        width: -webkit-fill-available;
+        margin-bottom: 35px;
+    }
+
+    .contact-form > div {
+        display: block;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: fit-content;
+        padding: 40px 0;
+    }
+}
