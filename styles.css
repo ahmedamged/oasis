@@ -369,11 +369,12 @@ body {
     }
 
     .navbar img{
-        width: 218px;
+        width: 150px;
     }
 
+    .provide-word::before,
     .solutions-word::before {
-        right: unset;
+        content: unset;
     }
 
     .hero {
@@ -389,12 +390,16 @@ body {
         margin-bottom: 20px;
     }
 
-    .hero-main > h2 {
-        font-size: 40px;
-    }
-
     .hero-main > h1 > span {
         font-size: 50px;
+    }
+
+    .hero-main > h2 {
+        font-size: 35px;
+    }
+
+    .hero-main > h3 {
+        font-size: 26px;
     }
 
     .hero-footer {
@@ -402,11 +407,24 @@ body {
         height: fit-content;
         padding: 85px 0;
         margin: 0;
+        font-size: 26px;
+    }
+
+    .hero-footer > div > i {
+        margin: 25px 0 16px;
+    }
+
+    .hero-footer-number {
+        font-size: 50px;
     }
 
     .main-section {
         display: block;
         margin: 0 32px;
+    }
+
+    .main-section > div {
+        font-size: 22px;
     }
 
     .main-section > img {
@@ -460,7 +478,8 @@ body {
 
     .vision-mission-section > img {
         max-width: -webkit-fill-available;
-        margin-bottom: 126px;
+        margin-bottom: 70px;
+        margin-top: 70px;
     }
 
     .contact-section {
