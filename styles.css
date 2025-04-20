@@ -31,7 +31,7 @@ body {
     align-items: center;
     height: 800px;
     background-color: #108db9;
-    background: url(images/workperch-unsplash.png);
+    background: url(images/hero-background.png);
     background-size: cover;
 }
 
@@ -140,8 +140,9 @@ body {
 }
 
 .main-section > img {
-    width: 600px;
+    width: 50vw;
     margin: 140px 50px 140px 0;
+    border-radius: 50%;
 }
 .main-section > div {
     max-width: 750px;
@@ -182,6 +183,11 @@ body {
 .vision-mission-section > div {
     max-width: 389px;
     text-align: center;
+}
+
+
+.vision-mission-section > div > img {
+    max-width: 170px;
 }
 
 .vision-mission-section > div > h4 {
@@ -231,6 +237,7 @@ body {
 
 .values-section > div > div > img { 
     margin-right: 30px;
+    max-width: 100px;
 }
 
 .values-section > div > div > div > h4 {
@@ -342,6 +349,10 @@ body {
     color: #fff;
     font-family: Myriad, sans-serif;
     height: 500px;
+}
+
+.footer > img {
+    max-width: 300px;
 }
 
 .footer h4 {
