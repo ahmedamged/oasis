@@ -486,6 +486,11 @@ body {
     .footer {
         flex-direction: column;
         height: fit-content;
-        padding: 40px 0;
+        padding: 40px 24px;
+        align-items: unset;
+    }
+    
+    .footer > div {
+        min-width: unset;
     }
 }
