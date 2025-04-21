@@ -302,8 +302,13 @@ ol, li {
     .s-wrap .s-item > a > img {
         padding: 0 12px;
     }
+
     .s-wrap .s-item > a > p {
         bottom: 7px;
         left: 12px;
+    }
+
+    .s-wrap .s-content {
+        font-size: 15px;
     }
 }
