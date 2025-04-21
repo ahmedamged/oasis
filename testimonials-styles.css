@@ -297,4 +297,8 @@ ol, li {
     .outer-wrapper > h5 {
         font-size: 26px;
     }
+
+    .s-wrap .s-content {
+        font-size: 17px;
+    }
 }
