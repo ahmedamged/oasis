@@ -45,6 +45,7 @@ ol, li {
     height: fit-content;
     position: relative;
     border: 10px solid #fff;
+    box-sizing: border-box;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -287,7 +288,7 @@ ol, li {
 
 @media screen and (max-width: 768px) {
     .outer-wrapper {
-        width: 80%;
+        width: 90%;
     }
 
     .outer-wrapper > h4 {
