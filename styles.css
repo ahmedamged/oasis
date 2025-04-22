@@ -13,6 +13,12 @@ body {
     margin: 0;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 .navbar {
     max-height: 84px;
     background-color: #fff;
@@ -219,7 +225,7 @@ body {
 .hero-footer {
     background-color: #444444;
     margin: -100px 3vw 0;
-    height: 250px;
+    height: 308px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -240,14 +246,17 @@ body {
 
 .hero-footer-section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-footer-text {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .hero-footer-number {
-    font-size: 4vw;
+    font-size: 3vw;
     margin: 0 15px 0 0;
 }
 
