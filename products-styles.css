@@ -54,7 +54,7 @@ ol, li {
 
 .caption > p {
     display: -webkit-box;
-    line-clamp: 3;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -66,4 +66,28 @@ ol, li {
 
 .contact-form {
     width: 600px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .outer-wrapper {
+        width: 70%;
+    }
+
+    .outer-wrapper > h4 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-form {
+        width: -webkit-fill-available;
+    }
+
+    .outer-wrapper {
+        width: 100%;
+    }
+
+    .outer-wrapper > h4 {
+        font-size: 50px;
+    }
 }

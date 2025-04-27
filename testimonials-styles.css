@@ -58,13 +58,35 @@ ol, li {
     color: #17acc6;
 }
 
-.caption > p {
-    display: -webkit-box;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-
 .contact-form {
     width: 600px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .outer-wrapper > h4 {
+        font-size: 50px;
+    }
+
+    .outer-wrapper > h5 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .outer-wrapper {
+        width: 90%;
+    }
+
+    .outer-wrapper > h4 {
+        font-size: 50px;
+    }
+
+    .outer-wrapper > h5 {
+        font-size: 26px;
+    }
+    
+    .contact-form {
+        width: -webkit-fill-available;
+    }
 }
