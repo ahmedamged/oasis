@@ -507,6 +507,19 @@ header {
     margin-right: 20px;
 }
 
+footer {
+    color: #fff;
+    background-color: #3e3e3e;
+    padding: 1px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Myriad, sans-serif;;
+}
+
+footer > p {
+    margin: 14px 0;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1200px) {
     .contact-section {
         flex-direction: column-reverse;
