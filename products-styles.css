@@ -33,6 +33,12 @@ ol, li {
     padding-top: 60px;
 }
 
+#carouselExampleDark {
+    background-color: #fff;
+    padding: 50px 0;
+    box-shadow: 0px 0px 20px #a9a9a9;
+}
+
 .caption {
     padding: 24px 66px;
 }
