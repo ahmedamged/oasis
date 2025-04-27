@@ -57,3 +57,7 @@ ol, li {
     border: 1px solid #dbdbdb;
     margin: 20px 0;
 }
+
+.contact-form {
+    width: 600px;
+}
